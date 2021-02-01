@@ -1,19 +1,17 @@
 {
-  "name": "typescript",
+  "name": "alurabank",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cleytonliveira/typescript.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cleytonliveira/typescript/issues"
-  },
-  "homepage": "https://github.com/cleytonliveira/typescript#readme"
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
 }
+
